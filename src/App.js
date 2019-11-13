@@ -24,7 +24,7 @@ function App() {
 function Splash(){
 
   const[text, setText] = useState(false);
-  const[choice, setChoice] = useState(false);
+  const[choice, setChoice] = useState(" ");
   let b1 = "Go Alone";
   let b2 = "Find a Buddy";
 
@@ -34,12 +34,12 @@ function Splash(){
     setText(true);
     if (choice === b1){
       ReactGA.event({
-        category: " Alone Button Clicked",
+        category: "Alone Button Clicked",
         action: "User pressed the alone button",
       });
     }else if (choice === b2){
       ReactGA.event({
-        category: " Buddy Button Clicked",
+        category: "Buddy Button Clicked",
         action: "User pressed the buddy button",
       });
     }
