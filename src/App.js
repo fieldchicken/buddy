@@ -38,6 +38,7 @@ function Splash(){
 
     return (
         <div className="outer">
+          <p>What is your choice?</p>
           <div className="container">
             <div className="sad" onClick={() => handleClick(b1)}><p>Go Alone</p></div>
             <div className="happy" onClick={() => handleClick(b2)}><p>Find a Buddy</p></div>
