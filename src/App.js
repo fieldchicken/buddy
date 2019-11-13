@@ -1,6 +1,14 @@
 import React, {useState} from 'react';
+import ReactGA from 'react-ga';
 import logo from './logo.svg';
 import './App.css';
+
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-152383455-1');
+  ReactGA.pageview('/');
+}
 
 function App() {
   return (
@@ -9,6 +17,9 @@ function App() {
     </div>
   );
 }
+
+
+
 
 function Splash(){
 
@@ -21,6 +32,18 @@ function Splash(){
 
   function handleClick(choice){
     setText(true);
+    if (choice === b1){
+      ReactGA.event({
+        category: " Alone Button Clicked",
+        action: "User pressed the alone button",
+      });
+    }else if (choice === b2){
+      ReactGA.event({
+        category: " Buddy Button Clicked",
+        action: "User pressed the buddy button",
+      });
+    }
+    
   }
 
   if(text){
