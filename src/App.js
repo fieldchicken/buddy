@@ -5,10 +5,9 @@ import './App.css';
 
 
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-152383455-1');
-  ReactGA.pageview('/');
-}
+ReactGA.initialize('UA-152383455-1');
+ReactGA.pageview('/');
+
 
 function App() {
   return (
