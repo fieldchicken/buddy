@@ -149,14 +149,14 @@ html,body {
   text-align: center;
   overflow: hidden;
   height: 50vh;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 
 
 .sad{
   height: 30vh;
-  width: 30vw;
-  margin-left: 13.333vw;
+  width: 32vw;
+  margin-left: 12vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
@@ -166,8 +166,8 @@ html,body {
 
 .happy{
   height: 30vh;
-  width: 30vw;
-  margin-left: 13.333vw;
+  width: 32vw;
+  margin-left: 12vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
