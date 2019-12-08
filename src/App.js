@@ -63,8 +63,13 @@ function Splash(){
           <div class="header">
           </div>
           <div class="fixed one">
-            <p>An online community created by NYU Shanghai students for NYU Shanghai students to collaborate through the exchange of ideas, skills, and viewpoints.</p>
-            <h3>What is your choice?</h3>
+            <div className="logo-area">
+              <img className="logo-img" src="https://bit.ly/2Ry81yw"/>
+            </div>
+            <div className="landing-text">
+              <p>An online community created by NYU Shanghai students for NYU Shanghai students to collaborate through the exchange of ideas, skills, and viewpoints.</p>
+              <h3>What is your choice?</h3>
+            </div>
             <div className="container">
               <div className="sad" onClick={() => handleClick(b1)}><h3>Learn a Skill</h3></div>
               <div className="happy" onClick={() => handleClick(b2)}><h3>Teach a Skill</h3></div>

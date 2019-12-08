@@ -16,6 +16,22 @@ html,body {
   background-repeat: no-repeat;
   background-size: cover;
   }
+
+.logo-area{
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+}
+
+.landing-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 .outer {
     height: 100vh;
     font-family: 'Ubuntu', sans-serif;
@@ -32,7 +48,9 @@ html,body {
     width: 100%;
     color: #eeeeee;
     text-align: center;
-    display: table;
+    display: flex;
+    flex-direction: column;
+
   }
   .fixed h2 {
     display: table-cell;
@@ -71,10 +89,10 @@ html,body {
   }
 
   .one h3 {
-    font-size: 46pt;
+    font-size: 8ch;
   }
   .one p {
-    font-size: 28pt;
+    font-size: 4ch;
   }
 
   .three h3{
@@ -82,14 +100,15 @@ html,body {
   }
 
   .sad h3 {
-
     background-color:#bba0ca;
     border-radius: 25px;
+    font-size: 3.5em;
   }
 
   .happy h3 {
     background-color: #7353BA;
     border-radius: 25px;
+    font-size: 3.5em;
   }
 
 /* .outer{
@@ -117,32 +136,33 @@ html,body {
   text-align: center;
   /* background: url('https://images.unsplash.com/photo-1469980098053-382eb10ba017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80') no-repeat center center fixed;
   background-size: cover; */
-  min-height: 100vh;
   align-content: center;
   align-content: center;
-  overflow: hidden;
-}
-
-.container p{
   text-align: center;
+  overflow: hidden;
+  margin-top: -10vh;
+  height: 40vh;
 }
 
 
 .sad{
-  height: 90vh;
+  height: 30vh;
   width: 35vw;
   margin-left: 10vw;
   border-radius: 30px;
   text-align: center;
+  align-items: center;
   cursor: pointer;
   overflow: hidden;
 }
 
 .happy{
-  height: 90vh;
+  height: 30vh;
   width: 35vw;
   margin-left: 10vw;
   border-radius: 30px;
+  text-align: center;
+  align-items: center;
   cursor: pointer;
   overflow: hidden;
 }
@@ -153,4 +173,9 @@ html,body {
 
 .sad:hover{
 
+}
+
+.logo-img{
+  height: 200px;
+  width: 200px;
 }
