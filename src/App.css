@@ -89,10 +89,10 @@ html,body {
   }
 
   .one h3 {
-    font-size: 8ch;
+    font-size: 7vw;
   }
   .one p {
-    font-size: 4ch;
+    font-size: 4vw;
   }
 
   .three h3{
@@ -102,13 +102,13 @@ html,body {
   .sad h3 {
     background-color:#bba0ca;
     border-radius: 25px;
-    font-size: 3.5em;
+    font-size: 6.5vw;
   }
 
   .happy h3 {
     background-color: #7353BA;
     border-radius: 25px;
-    font-size: 3.5em;
+    font-size: 6.5vw;
   }
 
 /* .outer{
