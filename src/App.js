@@ -60,11 +60,14 @@ function Splash(){
 
     return (
         <div className="outer">
+          <div class="header">
+          </div>
           <div class="fixed one">
-            <p>What is your choice?</p>
+            <p>An online community created by NYU Shanghai students for NYU Shanghai students to collaborate through the exchange of ideas, skills, and viewpoints.</p>
+            <h3>What is your choice?</h3>
             <div className="container">
-              <div className="sad" onClick={() => handleClick(b1)}><p>Go Alone</p></div>
-              <div className="happy" onClick={() => handleClick(b2)}><p>Find a Buddy</p></div>
+              <div className="sad" onClick={() => handleClick(b1)}><h3>Learn a Skill</h3></div>
+              <div className="happy" onClick={() => handleClick(b2)}><h3>Teach a Skill</h3></div>
             </div>
           </div>
           <div class="scroll">

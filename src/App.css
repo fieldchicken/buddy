@@ -56,7 +56,6 @@ html,body {
   .one {
     color:white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 46pt;
     font-style: bold;
     background-image: url("https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80")
   }
@@ -71,20 +70,24 @@ html,body {
     background-image: url("https://images.unsplash.com/photo-1533745848184-3db07256e163?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80")
   }
 
-
+  .one h3 {
+    font-size: 46pt;
+  }
+  .one p {
+    font-size: 28pt;
+  }
 
   .three h3{
     margin-top: 800px;
   }
 
-  .sad p {
-    width: 72vh;
+  .sad h3 {
+
     background-color:#bba0ca;
     border-radius: 25px;
   }
 
-  .happy p {
-    width: 72vh;
+  .happy h3 {
     background-color: #7353BA;
     border-radius: 25px;
   }
@@ -127,9 +130,8 @@ html,body {
 
 .sad{
   height: 90vh;
-  width: 36%;
-  margin-left: 5%;
-  margin-top: 5vh;
+  width: 35vw;
+  margin-left: 10vw;
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
@@ -138,9 +140,8 @@ html,body {
 
 .happy{
   height: 90vh;
-  width: 36%;
-  margin-top: 5vh;
-  margin-left: 15%;
+  width: 35vw;
+  margin-left: 10vw;
   border-radius: 30px;
   cursor: pointer;
   overflow: hidden;
