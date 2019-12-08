@@ -26,14 +26,22 @@ html,body {
 }
 
 .landing-text{
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 85vw;
+  margin-left: 7.5vw;
+}
 
+.landing-text p, .landing-text h3{
+  margin: 5vh auto;
 }
 .outer {
     height: 100vh;
+    justify-content: center;
+    align-items: center;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.5;
     word-spacing: 2px;
@@ -92,7 +100,7 @@ html,body {
     font-size: 7vw;
   }
   .one p {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   .three h3{
@@ -102,13 +110,13 @@ html,body {
   .sad h3 {
     background-color:#bba0ca;
     border-radius: 25px;
-    font-size: 6.5vw;
+    font-size: 6vw;
   }
 
   .happy h3 {
     background-color: #7353BA;
     border-radius: 25px;
-    font-size: 6.5vw;
+    font-size: 6vw;
   }
 
 /* .outer{
@@ -140,8 +148,8 @@ html,body {
   align-content: center;
   text-align: center;
   overflow: hidden;
-  margin-top: -10vh;
   height: 40vh;
+  margin-top: 5vh;
 }
 
 
