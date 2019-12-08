@@ -153,8 +153,8 @@ html,body {
   display: flex;
   background-color:#bba0ca;
   height: 12.5vh;
-  width: 32vw;
-  margin-left: 12vw;
+  width: 35vw;
+  margin-left: 10vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
@@ -167,8 +167,8 @@ html,body {
   display: flex;
   background-color: #7353BA;
   height: 12.5vh;
-  width: 32vw;
-  margin-left: 12vw;
+  width: 35vw;
+  margin-left: 10vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
