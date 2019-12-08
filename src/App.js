@@ -48,8 +48,8 @@ function Splash(){
   if(text){
     return(
       <div className="outer">
-        <div className="container">
-          <p>Thank you for the feedback</p>
+        <div className="fixed one">
+          <h3>Thank you for the feedback</h3>
         </div>
       </div>
     );
