@@ -145,14 +145,14 @@ html,body {
   text-align: center;
   overflow: hidden;
   height: 50vh;
-  margin-top: 10vh;
+  margin-top: 30vh;
 }
 
 
 .sad{
   display: flex;
   background-color:#bba0ca;
-  height: 25vh;
+  height: 12.5vh;
   width: 32vw;
   margin-left: 12vw;
   border-radius: 30px;
@@ -166,7 +166,7 @@ html,body {
 .happy{
   display: flex;
   background-color: #7353BA;
-  height: 25vh;
+  height: 12.5vh;
   width: 32vw;
   margin-left: 12vw;
   border-radius: 30px;
