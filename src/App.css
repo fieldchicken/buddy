@@ -100,7 +100,7 @@ html,body {
     font-size: 7vw;
   }
   .one p {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .three h3{
@@ -110,13 +110,13 @@ html,body {
   .sad h3 {
     background-color:#bba0ca;
     border-radius: 25px;
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
   .happy h3 {
     background-color: #7353BA;
     border-radius: 25px;
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
 /* .outer{
@@ -148,15 +148,15 @@ html,body {
   align-content: center;
   text-align: center;
   overflow: hidden;
-  height: 40vh;
+  height: 50vh;
   margin-top: 5vh;
 }
 
 
 .sad{
   height: 30vh;
-  width: 35vw;
-  margin-left: 10vw;
+  width: 30vw;
+  margin-left: 13.333vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
@@ -166,8 +166,8 @@ html,body {
 
 .happy{
   height: 30vh;
-  width: 35vw;
-  margin-left: 10vw;
+  width: 30vw;
+  margin-left: 13.333vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
