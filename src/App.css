@@ -101,6 +101,7 @@ html,body {
   }
   .one p {
     font-size: 3vw;
+    font-style: bold;
   }
 
   .three h3{
@@ -153,8 +154,8 @@ html,body {
   display: flex;
   background-color:#bba0ca;
   height: 12.5vh;
-  width: 35vw;
-  margin-left: 10vw;
+  width: 40vw;
+  margin-left: 6.667vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
@@ -167,8 +168,8 @@ html,body {
   display: flex;
   background-color: #7353BA;
   height: 12.5vh;
-  width: 35vw;
-  margin-left: 10vw;
+  width: 40vw;
+  margin-left: 6.667vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
