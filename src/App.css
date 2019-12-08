@@ -108,14 +108,10 @@ html,body {
   }
 
   .sad h3 {
-    background-color:#bba0ca;
-    border-radius: 25px;
     font-size: 5vw;
   }
 
   .happy h3 {
-    background-color: #7353BA;
-    border-radius: 25px;
     font-size: 5vw;
   }
 
@@ -154,23 +150,29 @@ html,body {
 
 
 .sad{
-  height: 30vh;
+  display: flex;
+  background-color:#bba0ca;
+  height: 25vh;
   width: 32vw;
   margin-left: 12vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   overflow: hidden;
 }
 
 .happy{
-  height: 30vh;
+  display: flex;
+  background-color: #7353BA;
+  height: 25vh;
   width: 32vw;
   margin-left: 12vw;
   border-radius: 30px;
   text-align: center;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   overflow: hidden;
 }
