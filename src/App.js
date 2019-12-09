@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import ReactGA from 'react-ga';
-import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Register from "./components/registerForm";
 
 
 ReactGA.initialize('UA-152383455-1');
@@ -36,6 +37,7 @@ function Splash(){
         category: "Alone Button Clicked",
         action: "User pressed the alone button",
       });
+
     }else if (choice === b2){
       ReactGA.event({
         category: "Buddy Button Clicked",
@@ -49,7 +51,11 @@ function Splash(){
     return(
       <div className="outer">
         <div className="fixed one">
-          <h3>Thank you for the feedback</h3>
+          <div className="auth-wrapper">
+            <div className="auth-inner">
+              <Register></Register>
+            </div>
+          </div>
         </div>
       </div>
     );
